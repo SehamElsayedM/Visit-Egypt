@@ -129,8 +129,8 @@ margin-left: 20px;}
 .inEgypt .part .part2 .image img{height: 200px;}
 .inEgypt .part .part2 .info{height: 320px;}
 .inEgypt .part .info .price2{
-    padding-top: 20px;
-    margin-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 20px;
   }
 .inEgypt .part .part2 .info .button{margin-top: 0px;margin-top: 15px; }
 
@@ -270,14 +270,14 @@ margin-left: 20px;}
     padding-top: 0px;
     margin-bottom: 0px;
   }
-.inEgypt .part .info .button{margin-top: 150px;}
+.inEgypt .part .info .button{margin-top: 100px;}
 .inEgypt .part .info .button button{padding-right: 50%;}
 .inEgypt .part .part2{
-    width: 48%;
-    margin-top: 20px;}
+    width: 49%;
+    margin-top: 0px;}
 .inEgypt .part .part2 .image img{height: 150px;}
 .inEgypt .part .part2 .info{height: 320px;}
-.inEgypt .part .part2 .info .button{margin-top: 0px;margin-top: 15px; }
+.inEgypt .part .part2 .info .button{margin-top: 0px;margin-top: 0px; }
 
 /* ***************** */
 footer{display: block;}
