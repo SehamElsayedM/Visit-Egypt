@@ -1,0 +1,289 @@
+@media(max-width:950px){
+    body {
+        background-color: rgba(255, 255, 255, 0.836);
+      }
+
+nav .list{
+    display: none;
+}
+nav .toggler {
+    display: block;
+    padding: 30px;
+    font-size: 30px;
+    color: rgba(72, 70, 70, 0.904);
+    }
+nav .logo{
+    margin-left: 20px;
+    }
+.head{
+    height: 60vh;
+}
+.head .info{
+    height: 450px;
+        width: 93%;
+    padding-left: 00px;
+    padding-top: 0px;
+    margin-left: 20px;
+background-color: rgba(0, 0, 0, 0.664);
+border-radius: 20px;}
+.head .info h1{
+    font-size: 40px;
+    margin-left: 70px;
+    margin-top: 80px;}
+
+.head .info p{
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 30px; 
+    width: 50%;
+    }
+.head .info button{
+    margin-top: 90px;
+margin-bottom: 35px;
+margin-left: 20px;}
+.head .imgData{
+    width: 93%;
+    margin-top: 100px;
+    margin-left: 20px;
+    }
+.head .imgData img{
+    height: 450px;
+    }
+    /* *************** */
+.bookingForm {
+    top: 630px;
+    left: 20px;
+    display: block;
+    padding: 20px 30px;
+    width: 86%;
+    }
+.bookingForm .part {
+    width: 100%;
+    }
+.bookingForm .part input{
+    width: 95%;
+    }
+.popular {
+    padding: 190px 0px;
+    padding-bottom: 20px;
+   margin-left: 30px;
+   width: 90%;
+   justify-content: space-around;
+}
+.popular .search{
+    padding: 10px;
+    margin: 10px  7px;
+    width: 16%; }
+/* ************ */
+.categories{
+    padding: 50px 0px;
+  }
+.categories p{font-size: 18px;}
+.categories .card{width: 33%;}
+.categories .card img{
+    width: 80%;
+    height: 250px;}
+    /* ********************* */
+.recommend{
+    width: 80%;
+    display: block;
+    padding: 40px 0px;
+    margin-top: 50px;}
+.recommend h3{
+    padding-bottom: 0px;
+    font-size: 35px;
+}
+.recommend .caption{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 250px; 
+  }
+  .recommend .caption .over h1{
+    padding-top: 190px;
+    padding-left: 20px;
+    font-size:40px;}
+/* ************* */
+.inEgypt{
+    display: block;
+    padding-top: 0px;
+    padding: 30px 0px;
+    margin-top: 50px;
+    padding-left: 20px;
+  }
+.inEgypt .part{width: 90%;}
+.inEgypt .part .info h3{
+    padding: 20px 10px;
+    width: 90%;
+    font-size: 30px;
+  }
+.inEgypt .part .info .p{display: none;}
+.inEgypt .part .info .price{
+    margin-bottom: 280px;
+  }
+.inEgypt .part .info .button button{padding-right: 75%;}
+.inEgypt .part .part2{
+    width: 48%;
+    margin-top: 20px;}
+.inEgypt .part .part2 .image img{height: 200px;}
+.inEgypt .part .part2 .info{height: 320px;}
+.inEgypt .part .info .price2{
+    padding-top: 20px;
+    margin-bottom: 0px;
+  }
+.inEgypt .part .part2 .info .button{margin-top: 0px;margin-top: 15px; }
+
+/* ***************** */
+footer .logo{width: 33%;text-align: center;margin-top: 50px; }
+footer .contact{width: 33%;margin-top: 50px;}
+footer .download{width: 33%;margin-top: 50px;}
+footer .download .store{
+    padding: 05px;
+    margin-top: 10px;
+    width: 80px;  
+    align-items:start;
+}
+
+}
+@media(max-width:750px){
+    body {
+        background-color: rgba(255, 255, 255, 0.836);
+      }
+
+nav .list{
+    display: none;
+}
+nav .toggler {
+    display: block;
+    padding: 20px;
+    font-size: 25px;
+    color: rgba(72, 70, 70, 0.904);
+    }
+nav .logo{
+    margin-left: 20px;
+    }
+.head{
+    height: 60vh;
+}
+.head .info{
+    height: 250px;
+    width: 93%;
+    padding-left: 00px;
+    padding-top: 0px;
+    margin-left: 10px;
+background-color: rgba(0, 0, 0, 0.772);
+border-radius: 20px;}
+.head .info h1{
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 10px;}
+
+.head .info p{
+    width: 80%;
+    color: white;
+    font-size: 18px;
+    margin-top: 0px;
+     margin-left: 10px; 
+    }
+.head .info button{
+    margin-top: 20px;
+margin-bottom: 45px;
+margin-left: 20px;}
+.head .imgData{
+     width: 93%;
+    margin-top: 100px;
+    margin-left: 10px;
+
+    }
+.head .imgData img{
+    height: 250px;
+    }
+    /* *************** */
+.bookingForm {
+    top: 410px;
+    left: 10px;
+    display: block;
+    padding: 20px 30px;
+    width: 80%;
+    }
+.bookingForm .part {
+    width: 100%;
+    }
+.bookingForm .part input{
+    width: 95%;
+    }
+.popular {
+    padding: 195px 0px;
+    padding-bottom: 20px;
+   
+}
+.popular .search{
+    padding: 10px;
+    margin: 5px  1px;
+    width: 20%; }
+/* ************ */
+.categories{
+    padding: 50px 0px;
+  }
+.categories p{font-size: 18px;}
+.categories .card{width: 33%;}
+.categories .card img{
+    width: 80%;
+    height: 150px;}
+    /* ********************* */
+.recommend{
+    width: 80%;
+    display: block;
+    padding: 50px 0px;
+    margin-top: 35px;}
+.recommend h3{
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+.recommend .caption{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    height: 200px; 
+  }
+  .recommend .caption .over h1{
+  padding-top: 160px;
+  padding-left: 10px;
+  font-size:29px;}
+/* ************* */
+.inEgypt{
+    display: block;
+    padding-top: 0px;
+    padding: 30px 0px;
+    margin-top: 50px;
+    padding-left: 20px;
+  }
+.inEgypt .part{width: 90%;}
+.inEgypt .part .info h3{
+    padding: 20px 10px;
+    width: 90%;
+    font-size: 20px;
+  }
+.inEgypt .part .info .p{display: none; font-size: 11px;}
+.inEgypt .part .info .price{
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+.inEgypt .part .info .button{margin-top: 150px;}
+.inEgypt .part .info .button button{padding-right: 50%;}
+.inEgypt .part .part2{
+    width: 48%;
+    margin-top: 20px;}
+.inEgypt .part .part2 .image img{height: 150px;}
+.inEgypt .part .part2 .info{height: 320px;}
+.inEgypt .part .part2 .info .button{margin-top: 0px;margin-top: 15px; }
+
+/* ***************** */
+footer{display: block;}
+footer .logo{width: 90%;text-align: center; }
+footer .contact{width: 90%;margin-top: 50px;}
+footer .download{width: 90%;margin-top: 50px;}
+footer .download .store{padding: 5px;margin-top: 10px;}
+
+}

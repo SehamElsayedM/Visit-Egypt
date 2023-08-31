@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.header{
+  color:rgba(0, 0, 0, 0.783);
+  font-size: 40px;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.941);
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 7vh;
+  align-items: center;
+  color: white;
+}
+nav .logo {
+  width: 100px;
+  transform: rotatex(360deg);
+  transition: all 1.3s;
+  margin-left: 130px;
+
+}
+
+nav .logo img{
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 10px;
+
+}
+nav .logo img:hover{
+  box-shadow: 0px 0px 20px white;
+}
+nav .toggler {
+  display: none;
+}
+nav .list ul {
+  display: flex;
+  list-style: none;
+  margin-right: 100px;
+}
+nav .list ul li {
+  padding: 0px 20px;
+  font-size: 20px;
+  font-weight: 900;
+  transition: all 1s;
+}
+nav .list ul li:hover{
+  transform: scale(1.1,1.1);
+  cursor: pointer;
+  text-shadow: 0px 0px 10px white;
+}
+
+/* 
+   end nav
+   start header
+ */
+
+ .head{
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+
+.head .info{
+  width: 40%;
+  padding-left: 200px;
+  margin-top:100px;
+  position: absolute;
+}
+.head .info h1{
+font-size: 50px;
+transition: all 0.5s;
+transform: scale(1.1,1.1);
+color: rgba(149, 95, 29, 0.811);
+}
+.head .info p{
+  font-family: 'Jost', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(32, 32, 32, 0.6);
+}
+.head .info button{
+  background-color: rgba(149, 95, 29, 0.692);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: 0;
+  border-radius: 20px;
+  padding: 10px 30px;
+  transition: all 0.5s;
+  margin-top: 80px;
+  cursor: pointer;
+
+}
+.head .info button:hover{
+  background-color:  rgba(149, 95, 29, 0.909);
+transform: scale(1.06,1.06);
+}
+
+.head .imgData{
+  width: 85%;
+  margin-top: 90px;
+  margin: auto;
+}
+
+.head .imgData img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* 
+   end header
+   start bookingForm
+ */
+.bookingForm {
+  background-color: rgba(0, 0, 0, 0.381);
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  border-radius: 20px;
+  padding: 20px 50px;
+  position: absolute;
+  top: 800px;
+  left: 180px;
+}
+.bookingForm .part {
+  width: 25%;
+}
+.bookingForm .part i{font-size: 16px;padding: 10px;}
+.bookingForm .part h2{
+  color: white;
+}
+.bookingForm .part input{
+  width: 90%;
+  border: 0px;
+  height: 30px;
+}
+
+.popular {
+  padding: 120px 200px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.popular p{
+  width: 100%;
+  color: gray;
+  font-size: 20px;
+}
+.popular .search{
+  box-sizing: border-box;
+  padding: 10px  0px;
+  margin: 10px  10px;
+  width: 18%;
+border: 2px solid rgba(128, 128, 128, 0.518);
+color: rgb(102, 101, 101);
+border-radius: 15px;
+} 
+/* 
+   end bookingForm
+   start  categories
+ */
+.categories{
+  display: flex;
+  flex-wrap:wrap ;
+  text-align: center;
+  justify-content: space-around;
+  background-color: rgb(216, 215, 215);
+  padding: 50px 0px;
+}
+
+
+.categories p{
+  width: 100%;
+  margin: 20px 0px;
+margin-bottom: 50px;
+font-size: 20px;
+
+}
+.categories .card{
+  width: 19%;
+}
+
+.categories .card img{
+width: 60%;
+height: 200px;
+border-radius: 50% 50% 0px 0px;
+box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.815);
+transition: all 1s;
+
+}
+.categories .card img:hover{
+  transform: scale(1.1,1.1);
+  box-shadow: 0px 0px 50px rgb(0, 0, 0);
+
+}
+
+.categories .card h3{
+  font-size: 25px;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.76);
+  font-family: lobster;
+  letter-spacing: 2px;
+}
+
+/* 
+   end categories
+   start recommend  
+ */
+.recommend{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgb(216, 215, 215);
+  padding: 60px 0px;
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+.recommend h3{
+  animation-name:move;
+    animation-duration: 2s ;
+    
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+  padding-bottom: 50px;
+}
+.recommend .caption{
+  position: relative;
+  width: 240px;
+  height: 200px; 
+  animation-name:move;
+    animation-duration: 2s ;
+    
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes move{
+        
+  from {transform: translatey(-20px);}
+
+}
+.recommend .caption img {
+  width: 100%;
+  height: 100%;
+}
+.recommend .caption .over{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.58);
+  top: 0px;
+}
+.recommend .caption .over h1{
+  padding-top: 160px;
+  padding-left: 10px;
+  color: rgb(208, 206, 206);
+  font-size:29px;
+  font-family: 'Lobster', 'cursive';
+  letter-spacing: 0.5px;
+  /* font-family: 'Poppins', sans-serif;
+  font-family: 'Righteous', cursive; */
+  }
+
+
+/* 
+   end recommend  
+   start inEgypt
+ */
+.inEgypt{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 50px;
+  background-color: rgb(216, 215, 215);
+  padding: 50px 0px;
+  margin-top: 50px;
+
+}
+.inEgypt i{
+  color: yellow;
+}
+.inEgypt .part{
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.inEgypt .part .image{
+  width: 50%;
+}
+.inEgypt .part .image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 0px 0px  20px;
+
+}
+.inEgypt .part .info{
+  color: white;
+  width: 50%;
+  padding-top: 30px;
+  background-color:rgba(14, 15, 15, 0.884);
+  border-radius:  0px  20px 20px 0px;
+
+}
+.inEgypt .part .info h3{
+  padding: 0px 10px;
+  font-size: 30px;
+}
+.inEgypt .part .info .p{
+  width: 90%;
+  padding: 5px 0px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+.inEgypt .part .info .star{
+  color: rgb(27, 27, 19);
+}
+.inEgypt .part .info .price{
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+.inEgypt .part .info .button{
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 10px 0px; 
+}
+.inEgypt .part .info .button button{
+  background-color: transparent;
+  border: 0px;
+  padding-right: 73%;
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 0.929);
+  font-weight: bold;
+  font-size: 15px;
+}
+.inEgypt .part .info .button i{
+  color: rgba(255, 255, 255, 0.523);
+}
+/* *************************** */
+.inEgypt .part .part2{
+  width: 45%;
+  margin: auto;
+}
+.inEgypt .part .part2 .image{
+  width: 100%;
+}
+.inEgypt .part .part2 .image img{
+width: 100%;
+height: auto;
+border-radius: 20px 20px 0px  0px;
+
+}
+.inEgypt .part .part2 .info{
+  width: 100%;
+  padding-top: 0px;
+  background-color:rgba(14, 15, 15, 0.884);
+  border-radius:  0px  0px 20px 20px;
+ 
+}
+
+.inEgypt .part .part2  .info h3{
+  padding: 10px 10px;
+}
+
+.inEgypt .part .part2  .info p{
+  padding: 10px ;
+}
+/* 
+   end inEgypt 
+   start footer
+ */
+
+ footer{
+  background-color: black;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  padding: 50px 0px;
+  flex-wrap: wrap;
+ }
+
+ 
+ 
+ /* ********* */
+ footer .logo{
+  width: 25%;
+  
+ }
+ footer .logo img{
+  width: 100px;
+
+ }
+
+ /* ********* */
+ footer .contact{
+  width: 25%;
+  text-align: center;
+ }
+footer .contact p{
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+footer .contact i{
+  font-size: 25px;
+  margin: 5px;
+}
+
+
+
+/* ********** */
+ footer .download{
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  text-align: center;
+ }
+ footer .download  p{
+  width: 100%;
+ }
+ footer .download .store{
+  background-color: rgb(159, 159, 159);
+  border-radius: 15px;
+  width: 110px;
+  display: flex;
+  align-items: center;
+  margin-left:50px ;
+ }
+ footer .download .store i{
+  margin-left: 4px;
+ }
+ 
+
+ footer .copyrights {
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  padding-top: 50px;
+}
+
+span{
+  color: rgb(42, 95, 165);
+}
+footer .copyrights .credits{
+  width: 100%;
+  text-align: center;
+}
