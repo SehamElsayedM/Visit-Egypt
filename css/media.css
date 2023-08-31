@@ -19,7 +19,7 @@ nav .logo{
     height: 60vh;
 }
 .head .info{
-    height: 450px;
+    /* height: 450px; */
         width: 93%;
     padding-left: 00px;
     padding-top: 0px;
@@ -67,7 +67,7 @@ margin-left: 20px;}
 .popular {
     padding: 190px 0px;
     padding-bottom: 20px;
-   margin-left: 30px;
+   margin:auto;
    width: 90%;
    justify-content: space-around;
 }
@@ -127,10 +127,10 @@ margin-left: 20px;}
     width: 48%;
     margin-top: 20px;}
 .inEgypt .part .part2 .image img{height: 200px;}
-.inEgypt .part .part2 .info{height: 320px;}
+/* .inEgypt .part .part2 .info{height: 320px;} */
 .inEgypt .part .info .price2{
     padding-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 .inEgypt .part .part2 .info .button{margin-top: 0px;margin-top: 15px; }
 
@@ -202,7 +202,7 @@ margin-left: 20px;}
     /* *************** */
 .bookingForm {
     top: 410px;
-    left: 10px;
+    left: 5px;
     display: block;
     padding: 20px 30px;
     width: 80%;
@@ -214,11 +214,12 @@ margin-left: 20px;}
     width: 95%;
     }
 .popular {
-    padding: 195px 0px;
+    padding: 190px 0px;
     padding-bottom: 20px;
    
 }
 .popular .search{
+    align-items: center;
     padding: 10px;
     margin: 5px  1px;
     width: 20%; }
@@ -276,7 +277,7 @@ margin-left: 20px;}
     width: 49%;
     margin-top: 0px;}
 .inEgypt .part .part2 .image img{height: 150px;}
-.inEgypt .part .part2 .info{height: 320px;}
+/* .inEgypt .part .part2 .info{height: 320px;} */
 .inEgypt .part .part2 .info .button{margin-top: 0px;margin-top: 0px; }
 
 /* ***************** */
