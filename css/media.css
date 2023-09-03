@@ -15,60 +15,37 @@ nav .toggler {
 nav .logo{
     margin-left: 20px;
     }
-.head{
-    height: 60vh;
+.head .imgData{
+    width: 93%; height: 40vh;
 }
-.head .info{
-    /* height: 450px; */
-        width: 93%;
-    padding-left: 00px;
-    padding-top: 0px;
-    margin-left: 20px;
-background-color: rgba(0, 0, 0, 0.664);
-border-radius: 20px;}
+.head .imgData .info{
+    width: 100%;
+    height: 40vh;
+    padding: 00px;
+    padding-left: 30px;
+    background-color: rgba(0, 0, 0, 0.543);
+    border-radius: 20px;box-sizing: border-box;}
 .head .info h1{
     font-size: 40px;
-    margin-left: 70px;
     margin-top: 80px;}
 
 .head .info p{
-    color: white;
-    font-size: 18px;
+    color: rgb(203, 203, 203);
+    font-size: 20px;
     margin-top: 10px;
-    margin-left: 30px; 
     width: 50%;
-    }
-.head .info button{
-    margin-top: 90px;
-margin-bottom: 35px;
-margin-left: 20px;}
-.head .imgData{
-    width: 93%;
-    margin-top: 100px;
-    margin-left: 20px;
     }
 .head .imgData img{
     height: 450px;
     }
-    /* *************** */
-.bookingForm {
-    top: 630px;
-    left: 20px;
-    display: block;
-    padding: 20px 30px;
-    width: 86%;
-    }
-.bookingForm .part {
-    width: 100%;
-    }
-.bookingForm .part input{
-    width: 95%;
-    }
+/* *************** */
+.booking{width: 85%;}
+.bookingForm .part {width: 100%;}
+.bookingForm .part input{width: 100%;}
 .popular {
-    padding: 190px 0px;
+    padding: 0px 0px;
     padding-bottom: 20px;
    margin:auto;
-   width: 90%;
    justify-content: space-around;
 }
 .popular .search{
@@ -87,142 +64,101 @@ margin-left: 20px;}
     /* ********************* */
 .recommend{
     width: 80%;
-    display: block;
     padding: 40px 0px;
     margin-top: 50px;}
 .recommend h3{
-    padding-bottom: 0px;
+    padding-bottom: 30px;
     font-size: 35px;
 }
 .recommend .caption{
-    width: 90%;
+    width: 40%;
     margin: auto;
-    margin-bottom: 10px;
-    height: 250px; 
+    margin-bottom: 50px;
+    height: 200px; 
   }
   .recommend .caption .over h1{
     padding-top: 190px;
     padding-left: 20px;
     font-size:40px;}
 /* ************* */
-.inEgypt{
-    display: block;
-    padding-top: 0px;
-    padding: 30px 0px;
-    margin-top: 50px;
-    padding-left: 20px;
-  }
-.inEgypt .part{width: 90%;}
-.inEgypt .part .info h3{
-    padding: 20px 10px;
-    width: 90%;
-    font-size: 30px;
-  }
-.inEgypt .part .info .p{display: none;}
-.inEgypt .part .info .price{
-    margin-bottom: 280px;
-  }
-.inEgypt .part .info .button button{padding-right: 75%;}
-.inEgypt .part .part2{
-    width: 48%;
-    margin-top: 20px;}
-.inEgypt .part .part2 .image img{height: 200px;}
-/* .inEgypt .part .part2 .info{height: 320px;} */
-.inEgypt .part .info .price2{
-    padding-top: 0px;
-    margin-bottom: 0px;
-  }
-.inEgypt .part .part2 .info .button{margin-top: 0px;margin-top: 15px; }
+.todo{display: block;}
+.todo .part{width: 90%;}
 
-/* ***************** */
-footer .logo{width: 33%;text-align: center;margin-top: 50px; }
-footer .contact{width: 33%;margin-top: 50px;}
-footer .download{width: 33%;margin-top: 50px;}
-footer .download .store{
-    padding: 05px;
-    margin-top: 10px;
-    width: 80px;  
-    align-items:start;
-}
-
+/* ************************ */
+.logIn {padding-top: 30px;}
+.logIn .cardHeader {width: 90%;}
+.logIn .cardForm {width: 90%;}
+.logIn .cardForm .group .label {
+    width: 40%;
+    direction: ltr;
+    margin: 5px 20px;
+  }
+.logIn .cardForm .submit-group { margin-left: 160px;}
+.logIn .cardForm .checkbox-group{margin-left: 310px;}
+.logIn .cardForm .checkbox-group input {
+    margin-top: 20px;
+    margin-left: 0px;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);  
+  }
+  .logIn .cardForm .checkbox-group label {margin-left: 10px;}
 }
 @media(max-width:750px){
-    body {
-        background-color: rgba(255, 255, 255, 0.836);
-      }
-
-nav .list{
-    display: none;
-}
+    body {background-color: rgba(255, 255, 255, 0.836);}
+nav .list{display: none;}
 nav .toggler {
     display: block;
     padding: 20px;
     font-size: 25px;
     color: rgba(72, 70, 70, 0.904);
     }
-nav .logo{
-    margin-left: 20px;
-    }
-.head{
-    height: 60vh;
-}
-.head .info{
-    height: 250px;
-    width: 93%;
-    padding-left: 00px;
-    padding-top: 0px;
-    margin-left: 10px;
-background-color: rgba(0, 0, 0, 0.772);
-border-radius: 20px;}
-.head .info h1{
-    font-size: 40px;
-    margin-left: 30px;
-    margin-top: 10px;}
+nav .logo{margin-left: 20px;}
+/* 
 
+/* ***************  */
+.head{padding:30px 0px;padding-bottom: 10px;}
+.head .imgData{width: 95%; height: 40vh;}
+.head .imgData .info{
+    width: 100%;
+    height: 40vh;
+    padding: 00px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.543);
+    border-radius: 20px;box-sizing: border-box;}
+.head .info h1{
+    font-size: 25px;
+    margin-top: 10px;}
 .head .info p{
-    width: 80%;
-    color: white;
-    font-size: 18px;
-    margin-top: 0px;
-     margin-left: 10px; 
+    width: 70%;
+    color: rgb(203, 203, 203);
+    font-size: 13px;
+    margin-top: 10px;
     }
 .head .info button{
-    margin-top: 20px;
-margin-bottom: 45px;
-margin-left: 20px;}
-.head .imgData{
-     width: 93%;
-    margin-top: 100px;
-    margin-left: 10px;
-
-    }
-.head .imgData img{
-    height: 250px;
-    }
+    font-size: 13px;
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin-top: 10px;}
     /* *************** */
-.bookingForm {
-    top: 410px;
-    left: 5px;
-    display: block;
-    padding: 20px 30px;
-    width: 80%;
+    .booking{width: 95%;}
+    .bookingForm .part {width: 100%;}
+    .bookingForm .part i{padding: 5px;}
+    .bookingForm .part h2{font-size: 22px;}
+    .bookingForm .part input{
+        width: 100%;
+        border-radius: 20px;
+        padding:0px 10px;
+        box-sizing: border-box;}
+    .popular {
+        padding: 0px 0px;
+        padding-bottom: 20px;
+       margin:auto;
     }
-.bookingForm .part {
-    width: 100%;
-    }
-.bookingForm .part input{
-    width: 95%;
-    }
-.popular {
-    padding: 190px 0px;
-    padding-bottom: 20px;
-   
-}
-.popular .search{
-    align-items: center;
-    padding: 10px;
-    margin: 5px  1px;
-    width: 40%; }
+    .popular .search{
+        height: 50px;
+        margin: 10px  0px;
+        width: 30%; }
 /* ************ */
 .categories{
     padding: 50px 0px;
@@ -234,57 +170,60 @@ margin-left: 20px;}
     height: 150px;}
     /* ********************* */
 .recommend{
-    width: 80%;
-    display: block;
-    padding: 50px 0px;
+    width: 90%;
+    padding-top: 30px;
     margin-top: 35px;}
 .recommend h3{
     padding-bottom: 30px;
     font-size: 35px;
 }
 .recommend .caption{
-    width: 90%;
-    margin: auto;
-    margin-bottom: 10px;
-    height: 200px; 
+    width: 40%;
+    margin-bottom: 40px;
+    height: 200px;
   }
-  .recommend .caption .over h1{
-  padding-top: 160px;
-  padding-left: 10px;
-  font-size:29px;}
+  .recommend .caption p{
+  padding-top: 70px;
+  padding-left: 6px;
+  font-size:16px;}
 /* ************* */
-.inEgypt{
-    display: block;
-    padding-top: 0px;
-    padding: 30px 0px;
-    margin-top: 50px;
-    padding-left: 20px;
+.todo{display: block;padding: 0px 0px;}
+.todo .part{width: 95%;flex-wrap: wrap;}
+.todo .part .image{width :100%;height: 200px;}
+.todo .part .image img{border-radius: 40px 40px 0px 0px;}
+.todo .part .info{  
+    padding: 0px 10px;
+    width :100%;
+    border-radius: 0px 0px 40px 40px;
+    height: 340px;
   }
-.inEgypt .part{width: 90%;}
-.inEgypt .part .info h3{
-    padding: 20px 10px;
-    width: 90%;
-    font-size: 20px;
-  }
-.inEgypt .part .info .p{display: none; font-size: 11px;}
-.inEgypt .part .info .price{
-    padding-top: 0px;
-    margin-bottom: 0px;
-  }
-.inEgypt .part .info .button{margin-top: 100px;}
-.inEgypt .part .info .button button{padding-right: 50%;}
-.inEgypt .part .part2{
-    width: 49%;
-    margin-top: 0px;}
-.inEgypt .part .part2 .image img{height: 150px;}
-/* .inEgypt .part .part2 .info{height: 320px;} */
-.inEgypt .part .part2 .info .button{margin-top: 0px;margin-top: 0px; }
+.todo .part .info h3{height: 25%; font-size: 25px;}
 
+
+.todo .part .part2{width: 49%;}
+.todo .part .part2 .info2 h3{ font-size: 20px;height: 120px;}
 /* ***************** */
 footer{display: block;}
 footer .logo{width: 90%;text-align: center; }
 footer .contact{width: 90%;margin-top: 50px;}
 footer .download{width: 90%;margin-top: 50px;}
 footer .download .store{padding: 5px;margin-top: 10px;}
-
+/* ********************* */
+.logIn {padding-top: 30px;}
+.logIn .cardHeader {width: 90%;}
+.logIn .cardForm {width: 90%;}
+.logIn .cardForm .group .label {
+    width: 40%;
+    direction: ltr;
+    margin: 5px 20px;
+  }
+.logIn .cardForm .submit-group { margin-left: 10px;}
+.logIn .cardForm .checkbox-group{margin-left: 180px;}
+.logIn .cardForm .checkbox-group input {
+    margin-top: 20px;
+    margin-left: 0px;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);  
+  }
+  .logIn .cardForm .checkbox-group label {margin-left: 10px;}
 }

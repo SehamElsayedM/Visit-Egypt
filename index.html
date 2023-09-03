@@ -26,31 +26,31 @@
       </div>
       <div class="list">
         <ul>
-          <li>Home</li>
-          <li>booking form</li>
-          <li>Category</li>
-          <li>About Us</li>
-
-          
+          <li><a href="#head">Home</a></li>
+          <li><a href="#booking">booking form</a></li>
+          <li><a href="#categories">Category</a></li>
+          <li><a href="#recommend">Our Services</a></li> 
+          <li><a href="./login.html">Login</a></li> 
+          <li><a href="./signUp.html">SignUp</a></li> 
         </ul>
       </div>
     </nav>
   
-    <section class="head">
+    <section class="head" id="head">
 
       <div class="imgData">
-        <img src="./assets/img/head-(1).jpg" alt="image not found" />
+        <div class="info">
+          <h1>Build a trip in minutes</h1>
+          <p>
+            Get a personalized itinerary just for you, guided by traveler tips and
+            reviews.
+          </p>
+          <button>Start a Trip Now</button>
+        </div>
       </div>
-      <div class="info">
-        <h1>Build a trip in minutes</h1>
-        <p>
-          Get a personalized itinerary just for you, guided by traveler tips and
-          reviews.
-        </p>
-        <button>Start a Trip Now</button>
-      </div>
+     
     </section> 
-    
+   <section class="booking" id="booking">
     <div class="bookingForm">
       <div class="part">
         <h2><i class="fa-solid fa-location-dot"></i> Location</h2>
@@ -66,7 +66,7 @@
       </div>
     </div>
 
-    <div class="popular">
+    <div class="popular" >
       <p>popular Search</p>
       <div class="search">Pyramids</div>
       <div class="search">Valley of Kings</div>
@@ -79,8 +79,8 @@
       <div class="search">Alexandria</div>
       <div class="search">Ramessum</div>
     </div>
-
-    <div class="categories">
+  </section> 
+    <div class="categories" id="categories">
       <h2 class="header">Categories</h2>
       <p>
         Much destinaations here but don't be confuse ! It's already grouped by
@@ -108,108 +108,101 @@
       </div>
 
       <div class="card">
-        <img src="./assets/img/Temple (2).jpeg" alt="image" />
+        <img src="./assets/img/mountain.jpg" alt="image" />
         <h3>Mountain</h3>
       </div>
     </div>
-
-    <div class="recommend">
-      <h3 class="header">Attractions you may like</h3>
-
+    <div class="recommend" id="recommend">
+      <h3 class="header">Our Services</h3>
+      
       <div class="caption">
-        <img src="./assets/img/aswan (2).jpeg" alt="" />
         <div class="over">
-          <h1>Aswan</h1>
+          <i class="fa-brands fa-searchengin"></i>
         </div>
+        <p>undertaking research and planning tours</p>
+        
+      </div>
+  
+      <div class="caption">
+        <div class="over">
+          <i class="fa-solid fa-eye"></i>
+              </div>
+        <p>offering sightseeing advice.</p>
+        
       </div>
       <div class="caption">
-        <img src="./assets/img/luxor (2).jpeg" alt="" />
         <div class="over">
-          <h1>Luxor</h1>
-        </div>
+          <i class="fa-solid fa-book-open-reader"></i>
+                    </div>
+        <p>organising and leading excursions.</p>
+        
       </div>
       <div class="caption">
-        <img src="./assets/img/sharm (2).jpeg" alt="" />
         <div class="over">
-          <h1>Sharm El-Shaikh</h1>
+          <i class="fa-solid fa-truck-plane"></i>            
         </div>
+        <p>transporting and accompanying tourists</p>
+        
       </div>
-      <div class="caption">
-        <img src="./assets/img/Marsa Alam.jpg" alt="" />
-        <div class="over">
-          <h1>Marsa Alam</h1>
-        </div>
-      </div>
-    </div> 
-
-    <div class="inEgypt">
+  
+    </div>
+    <section class="todo" id="todo">
       <h3 class="header">What to do in Egypt</h3>
       <div class="part">
         <div class="image">
           <img src="./assets/img/stars (2).jpeg" alt="" />
-        </div>
+        </div>  
         <div class="info">
           <h3>El Gouna: Desert Star-Watching Adventure by Jeep with Dinner</h3>
-          <p class="p">
-            As the sun sets below the horizon, casting a warm, golden glow across the vast desert landscape, the first signs of the approaching night emerge. The sky begins its gradual transformation, fading from shades of orange and pink to a deep velvety blue. The air carries a sense of tranquility and anticipation, as if nature itself is preparing for the celestial spectacle about to unfold.
-          </p>
-
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <div class="price"><p><del>From 1000.00 EGP </del>  </p>
-                <p> From 899.00 EGP per person</p></div>
-            <div class="button">
-            <button>Explore</button><i class="fa-solid fa-angle-right"></i>
-          </div>
-        </div>
+          <p>As the sun sets below the horizon, casting a warm, golden glow across the vast desert landscape, the first signs of the approaching night emerge. The sky begins its gradual transformation, fading from shades of orange and pink to a deep velvety blue. The air carries a sense of tranquility and anticipation.</p>
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <div class="price">
+              <p><del>From 1000.00 EGP </del>  </p>
+              <p> From 899.00 EGP per person</p>
+            </div>
+            <!-- <div class="button">
+              <button>Explore</button><i class="fa-solid fa-angle-right"></i>
+            </div> -->
+        </div>    
       </div>
-
       <div class="part">
-        <div class="part2">
-          <div class="image">
-            <img src="./assets/img/ship.jpg" alt="" />
-          </div>
-          <div class="info">
-            <h3>4-Days Nile Cruise From Aswan To Luxor including  Hot Air Balloon</h3>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <div class="price2">
-            <p><del>From 599.50 EGP </del>  </p>
-            <p> From 499.0 EGP per person</p>
-            </div>
-            <div class="button">
-              <button>Explore</button><i class="fa-solid fa-angle-right"></i>
-            </div>
-          </div>
-        </div>
 
-        <div class="part2">
-          <div class="image">
-            <img src="./assets/img/pyramids.jpg" alt="" />
-          </div>
-          <div class="info">
-            <h3>Private tour to Giza Pyramids, Sphinx, Egyptian Museum with Local Lunch</h3>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-
-            <p><del>From 399.80 EGP </del>  </p>
-            <p> From 299.0 EGP per person</p>
-            <div class="button">
-              <button>Explore</button><i class="fa-solid fa-angle-right"></i>
-            </div>          
-          </div>
-        </div>
+<div class="part2">
+  <div class="image2">
+    <img src="./assets/img/ship.jpg" alt="" />
+  </div>  
+  <div class="info2">
+    <h3>4-Days Nile Cruise From Aswan To Luxor including  Hot Air Balloon</h3>
+    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+      <div class="price2">
+        <p><del>From 599.50 EGP </del></p>
+        <p> From 499.0 EGP per person</p>
       </div>
-    </div>
+      <!-- <div class="button2">
+        <button>Explore</button><i class="fa-solid fa-angle-right"></i>
+      </div> -->
+  </div> 
+</div>
+
+<div class="part2">
+  <div class="image2">
+    <img src="./assets/img/pyramids.jpg" alt="" />
+  </div>  
+  <div class="info2">
+    <h3>Private tour to Giza Pyramids, Sphinx, Egyptian Museum</h3>
+    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+
+      <div class="price2">
+        <p><del>From 399.80 EGP </del> </p>
+        <p> From 299.0 EGP per person</p>
+      </div>
+      <!-- <div class="button2">
+        <button>Explore</button><i class="fa-solid fa-angle-right"></i>
+      </div> -->
+  </div> 
+</div>
+      </div>
+    </section>
 
    <footer>
       <div class="logo">
