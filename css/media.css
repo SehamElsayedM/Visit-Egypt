@@ -201,7 +201,7 @@ nav .logo{margin-left: 20px;}
 
 
 .todo .part .part2{width: 49%;}
-.todo .part .part2 .info2 h3{ font-size: 20px;height: 120px;}
+.todo .part .part2 .info2 h3{ font-size: 20px;margin-bottom: 10px;}
 /* ***************** */
 footer{display: block;}
 footer .logo{width: 90%;text-align: center; }
